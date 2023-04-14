@@ -3,17 +3,27 @@
 .navigation {
   display:flex;
   justify-content: space-evenly;
-  width: 100%;
   text-align: center;
-  border:red 1px solid;
+  width: 100%;
   &-link{
     margin:1rem;
+    color: vars.$secondary-color;
+    &:hover{
+      color:vars.$main-color;
+    }
   }
+  
 }
 .header {
   display:flex;
   align-items: center;
-  background-color: azure;
+  font-weight: bold;
+  border-bottom: 0.4px solid lightgrey;
+  &-homeText{
+      color: vars.$main-color;
+  }
+  &-flags{
+  }
 
 }
 

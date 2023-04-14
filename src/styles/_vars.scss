@@ -1,6 +1,7 @@
 @use "sass:color";
 
-$main-color: #13405D;
-$purple-color: #5400ff;
+$main-color: rgb(195, 116, 85);
+$secondary-color: rgb(26 41 50);
 $lighter-color: color.scale($main-color, $lightness: 80%);
 $text-color: color.scale($main-color, $lightness: 30%);
+
