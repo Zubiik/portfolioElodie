@@ -1,0 +1,26 @@
+@use '../../styles/vars';
+
+.home{
+  margin-top:2rem;
+  display:flex;
+  align-items: center;
+  font-size: 25px;
+  &-title{
+    font-weight: bold;
+  }
+   &-description{
+    margin:20px;
+    color:vars.$slateGray;
+   }
+  @media all and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+
+    }
+    &-avatarImage{
+  @media all and (max-width: 480px) {
+    max-width: 80%;
+  
+    }
+}
+}

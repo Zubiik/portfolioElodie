@@ -1,7 +1,27 @@
 @use "sass:color";
 
-$main-color: rgb(195, 116, 85);
-$secondary-color: rgb(26 41 50);
+$main-color: #C37455;
+$secondary-color: #1B2932AA;
+$slateGray: #5E7887;
 $lighter-color: color.scale($main-color, $lightness: 80%);
 $text-color: color.scale($main-color, $lightness: 30%);
 
+    // colors: {
+    //   copperRed: '#C37455',
+    //     gunMetalAlpha: '#1B2932AA',
+    //     gunMetal: '#1B2932',
+    //     slateGray: '#5E7887',
+    //     tan: '#D3B692'
+    //     puce: '#CC8899',
+    //     emerald: '#3F8D6C',
+    //     gold: '#DCB253',
+    // }
+  
+    // ,
+    // lightColors: {
+    //   cameoPink: '#DFB8C2',
+    //     beauBlue: '#B6C7D0',
+    //     opal: '#B0C8BE',
+    //     lightWhite: '#F9FBFC',
+    // }
+  
