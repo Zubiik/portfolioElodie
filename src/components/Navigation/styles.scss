@@ -1,0 +1,19 @@
+@use '../../styles/vars';
+
+.navigation {
+  display:flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+  border:red 1px solid;
+  &-link{
+    margin:1rem;
+  }
+}
+.header {
+  display:flex;
+  align-items: center;
+  background-color: azure;
+
+}
+
